@@ -51,7 +51,7 @@ function vidFullscreen() {
       video.webkitRequestFullscreen();
     }
 }
-monurl="http://cdn01.palki.tv/live/TSports-M/index.fmp4.m3u8"
+monurl="http://45.232.210.1:8062/play/a08b/index.m3u8"
 playM3u8(monurl)
 /*playM3u8(window.location.href.split("#")[1])*/
 $(window).on('load', function () {
